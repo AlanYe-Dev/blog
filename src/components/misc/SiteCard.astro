@@ -1,0 +1,42 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+    title: string;
+    desc: string;
+    icon: string;
+    url: string;
+    class: string;
+}
+
+const { title, desc, icon, url, class: className } = Astro.props;
+---
+
+<div class={`relative transition overflow-hidden bg-[var(--license-block-bg)] py-5 px-6 mb-6 rounded-xl license-container onload-animation ${className}`}>
+    <div class="flex items-center mb-4">
+        <div class="gc-avatar" style={`background-image: url('${icon}'); background-color: transparent;`} aria-hidden="true"></div>
+        <div class="ml-4 transition font-bold text-black/75 dark:text-white/75 text-lg">
+            {title}
+        </div>
+    </div>
+    <div class="flex justify-between items-center mb-2">
+        <div class="transition text-black/75 dark:text-white/75">
+            {desc}
+        </div>
+        <a href={url} class="link text-[var(--primary)] break-words ml-4" target="_blank">
+            {url}
+        </a>
+    </div>
+    <Icon name="fa6-solid:link" class="transition absolute pointer-events-none right-6 top-1/2 -translate-y-1/2 text-black/5 dark:text-white/5" size="240"></Icon>
+</div>
+
+
+<style>
+    .gc-avatar {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
