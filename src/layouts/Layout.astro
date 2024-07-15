@@ -63,7 +63,8 @@ let pageTitle;
 if (title) {
 	pageTitle = `${title} - ${siteConfig.title}`;
 } else {
-	pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`;
+	// pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`;
+	pageTitle = `${siteConfig.title}`;
 }
 
 const favicons: Favicon[] = siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons
