@@ -1,9 +1,18 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于
 
-::github{repo="saicaca/fuwari"}
+> For the English version, [click here](/about-en/)
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+欢迎光临我的小站~ 
+
+本人名为 Alan，是一名学生，热衷于科技产物，喜欢音乐与开发，~~也很喜欢可爱的东西~~。
+
+## 关于本站
+多年前，我便开始尝试建立自己的网站。几经 WordPress、Typecho 等各种内容管理系统的奔波之后，决定转向 Serverless 的怀抱。
+
+我主要会在此处存放些开发类的文章，偶尔会有生活类的，但其实很少会更新。
+
+::github{repo="at-wr/blog"}
+
+## 联系方式
+
+欢迎通过 Telegram 与邮箱与我取得联系~
