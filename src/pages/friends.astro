@@ -1,0 +1,28 @@
+---
+
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+import { getEntry } from 'astro:content'
+import {i18n} from "../i18n/translation";
+import I18nKey from "../i18n/i18nKey";
+import Markdown from "@components/misc/Markdown.astro";
+import SiteCard from "@components/misc/SiteCard.astro";
+
+const aboutPost = await getEntry('spec', 'friends')
+
+const { Content } = await aboutPost.render()
+
+---
+<MainGridLayout title="Friends" description={i18n(I18nKey.about)}>
+  <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+    <div class="card-base z-10 px-9 py-6 relative w-full ">
+      <Markdown class="mt-2">
+        <Content />
+      </Markdown>
+
+      <SiteCard title="Cynosura" url="https://cynosura.one" icon="https://cynosura.one/img/avatar.webp" desc="Per aspera, ad astra."></SiteCard>
+      <SiteCard title="Yunyi’s Blog" url="https://www.yunyitang.me" icon="https://github.com/yunyit.png" desc="Little squirrel Hopping around"></SiteCard>
+      <SiteCard title="Heuluck’s Blog" url="https://heuluck.top" icon="https://github.com/Heuluck.png" desc="随便写点东西记录一下"></SiteCard>
+    </div>
+  </div>
+</MainGridLayout>
