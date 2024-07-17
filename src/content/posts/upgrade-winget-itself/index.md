@@ -1,5 +1,5 @@
 ---
-title: How to upgrade winget itself
+title: (How to) Upgrade winget itself
 published: 2023-10-03T02:39:00.000Z
 draft: false
 category: Dev
