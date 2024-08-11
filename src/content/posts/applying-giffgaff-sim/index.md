@@ -3,7 +3,7 @@ title: 英国 giffgaff SIM 卡申请/激活历程、Tips 及使用体验
 description: 讲述了一些在中国申请 giffgaff 的历程以及一些使用其服务之须知内容...
 published: 2024-05-14T17:30:00+08:00
 category: Guides
-tags: [Application, Carrier, Open Source]
+tags: [Apply, Carrier, Open Source]
 language: zh
 ---
 

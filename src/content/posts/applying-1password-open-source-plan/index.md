@@ -4,7 +4,7 @@ description: 当今，大部分平台已逐步从“一次性买断”过渡到�
 published: 2024-01-22T19:00:00+08:00
 draft: false
 category: Guides
-tags: [Application, 1Password, Open Source]
+tags: [Apply, 1Password]
 language: zh
 ---
 
