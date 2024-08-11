@@ -4,7 +4,7 @@ published: 2024-08-11
 draft: false
 category: Dev
 tags: [Arch, Linux, Windows, Tips]
-description: 在 Markdown 等静态文件中，手动设置时间一直是一件极其麻烦的事情。尤其是 Astro，它 Markdown 文件中的时间格式必须是 ISO 8601 格式。在此之前，你可能需要前往在线时间格式转换器来获取 ISO 8601 格式的时间。然而这种方法极其麻烦，而且当你希望更新时间的时候，你甚至还需要再次打开这个网页，重新复制粘贴…
+description: 在 Arch Linux 系统中修复 grub 和 Windows Boot Manager 双系统 UEFI 引导，适合需要解决双系统引导问题的用户参考...
 language: zh
 ---
 
@@ -14,7 +14,7 @@ language: zh
 
 经检索，这可能是由于...
 
-> 强制断电导致 BIOS 损坏，于是开机后主板自动从备份 BIOS 里恢复，EFI 启动记录就丢失，然后 GRUB 就消失了。
+> 强制断电导致 BIOS 损坏，于是开机后主板自动从备份 BIOS 里恢复，EFI 启动记录就丢失，然后 grub 就消失了。
 > 
 > —— [reuixiy](https://io-oi.me/tech/how-to-reinstall-grub/)
 
