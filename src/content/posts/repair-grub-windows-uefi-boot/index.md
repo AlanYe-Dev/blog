@@ -8,7 +8,7 @@ description: 在 Markdown 等静态文件中，手动设置时间一直是一件
 language: zh
 ---
 
-笔者装有 Nvidia 驱动 + KDE Plasma + Arch Linux 笔记本电脑从睡眠状态重新唤醒时，有时会遇到黑屏或显示图像错乱的情况，不论在 UEFI 选项中开关 Optimus / Hybrid 设置均会出现类似情况。
+笔者装有 Nvidia 驱动 + KDE Plasma + Arch Linux 的笔记本电脑从睡眠状态重新唤醒时，有时会遇到黑屏或显示图像错乱的情况，不论在 UEFI 选项中开关 Optimus / Hybrid 设置均会出现类似情况。
 
 为重新进入系统，笔者选择了强制重启以退出黑屏状态。然而，重启后发现电脑不断循环重启，没能进入系统。进入 BIOS 启动项选择后发现 grub 及 Windows Boot Manager 引导选项双双消失。
 
