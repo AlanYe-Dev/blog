@@ -14,5 +14,7 @@
 ::github{repo="at-wr/blog"}
 
 ## 联系方式
-
 欢迎通过 Telegram 与邮箱与我取得联系~
+
+> ### 图片使用说明
+> - [うさみみフードのレンきゅん](https://www.pixiv.net/artworks/84408885) by [丸井シロ](https://www.pixiv.net/users/2258616)
