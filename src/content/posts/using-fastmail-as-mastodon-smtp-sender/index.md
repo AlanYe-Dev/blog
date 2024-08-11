@@ -3,7 +3,7 @@ title: Using Fastmail as Mastodon SMTP Sender
 description: The .env.production configuration to set Fastmail service as Mastodon SMTP Sender Service
 published: 2024-05-01T11:43:33+08:00
 category: Dev
-tags: [Mastodon, SMTP, Tips]
+tags: [Mastodon, Tips]
 language: en
 ---
 
