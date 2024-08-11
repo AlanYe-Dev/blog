@@ -16,3 +16,7 @@ I actually barely maintained my passion on writing blog posts, so it hasn’t be
 ## Contact
 
 If you have any interesting questions, ideas, or projects, feel free to contact me via Telegram 💬 or email ✉️. I'm always glad to hear from you.
+
+> ### Credit for used images on this site
+> - [うさみみフードのレンきゅん](https://www.pixiv.net/artworks/84408885) by [丸井シロ](https://www.pixiv.net/users/2258616)
+> - [星空](https://www.pixiv.net/artworks/121372573) by [Pentaro ペンたろう](https://www.pixiv.net/users/85643940)
