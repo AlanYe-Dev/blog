@@ -19,7 +19,7 @@ export const siteConfig: SiteConfig = {
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, defaults center
     credit: {
-      enable: false
+      enable: false,
       text: '',
       url: ''
     },
