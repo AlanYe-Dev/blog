@@ -59,7 +59,7 @@ arch-chroot /mnt
 sudo pacman -S grub efibootmgr os-prober
 ```
 
-6. 运行 grub-install
+6. 运行 ``grub-install``
 
 ```shell
 grub-install --efi-directory=/boot --bootloader-id=grub
