@@ -4,7 +4,7 @@ description: 通过 requests / bs4 模块爬取 WordPress.org 插件 json 信息
 published: 2020-05-03T13:30:00.000Z
 draft: false
 category: Dev
-tags: [Python, WordPress, Web]
+tags: [Python, Web]
 language: zh
 ---
 
