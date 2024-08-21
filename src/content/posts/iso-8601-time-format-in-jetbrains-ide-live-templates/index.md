@@ -3,7 +3,7 @@ title: 借助 Live Templates 在 JetBrains IDE 中以 ISO 8601 格式输出当�
 published: 2024-01-20T15:45:21+08:00
 draft: false
 category: Dev
-tags: [Markdown, JetBrains IDE, Tips]
+tags: [Markdown, IDE, Tips]
 description: 在 Markdown 等静态文件中，手动设置时间一直是一件极其麻烦的事情。尤其是 Astro，它 Markdown 文件中的时间格式必须是 ISO 8601 格式。在此之前，你可能需要前往在线时间格式转换器来获取 ISO 8601 格式的时间。然而这种方法极其麻烦，而且当你希望更新时间的时候，你甚至还需要再次打开这个网页，重新复制粘贴…
 language: zh
 ---
