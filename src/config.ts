@@ -9,7 +9,7 @@ import { LinkPreset } from './types/config'
 export const siteConfig: SiteConfig = {
   title: 'Blog of Wr',
   subtitle: 'Alan 的个人主页，存放些有意思的东西',
-  lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja'
+  lang: 'zh',         // 'en', 'zh_CN', 'zh_TW', 'ja'
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
