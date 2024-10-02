@@ -1,7 +1,7 @@
 ---
 title: 使用 Rclone 实现定期将 Mastodon 实例 PostgresSQL 数据库备份至 OneDrive
-description:为避免意外情况对 Mastodon 实例数据造成的影响，最好应当对其进行定期备份...
-published: 2024-10-2
+description: "为避免意外情况对 Mastodon 实例数据造成的影响，最好应当对其进行定期备份..."
+published: 2024-10-02
 category: Dev
 tags: [Mastodon, Linux]
 language: zh
