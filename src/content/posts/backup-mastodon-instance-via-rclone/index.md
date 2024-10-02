@@ -7,7 +7,7 @@ tags: [Mastodon, Linux]
 language: zh
 ---
 
-根据 [Mastodon 说明文档](https://docs.joinmastodon.org/admin/backups，为避免意外情况对 Mastodon 实例数据造成的影响，最好应当对其进行定期备份。
+根据 [Mastodon 说明文档](https://docs.joinmastodon.org/admin/backups)，为避免意外情况对 Mastodon 实例数据造成的影响，最好应当对其进行定期备份。
 
 本文将介绍如何借助 Rclone 工具实现将 Mastodon 实例的 PostgresSQL 数据库备份至 OneDrive。
 
