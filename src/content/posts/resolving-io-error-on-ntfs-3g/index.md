@@ -41,7 +41,7 @@ In this case, the `lsblk` command shows, or does not show up the disk device, in
 2. Set the disk still and wait for at least 5 minutes, which makes sure the hard drive cools down.
 3. Connect to any Windows device, listen to the sound of the hard drive, and make sure there’s no weird noises coming out, which could indicate that there might have some hardware issue with the hard drive. 
 4. Wait until the disk showed up in the Device Manager and Windows File Explorer. That indicates that the drive could work properly, but have some file system corruption. 
-	- File Explorer might pop up a window asking whether to fix the file system or not. In this case, choose to ignore, since we will take another step to take.
+	- File Explorer might pop up a window asking whether to fix the file system or not. In this case, choose to ignore it, since we will take another step.
 5. Execute `chkdsk` command to fix corrupted file system.
 	1. Open up a Windows Command Prompt window with Administrator Privileges
 	2. Enter `chkdsk /r D:`, where `D:` should be replaced by the drive letter of the target disk.
