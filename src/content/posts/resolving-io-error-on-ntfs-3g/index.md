@@ -9,6 +9,7 @@ language: en
 ---
 
 Personally, I use a MacBook Pro running on Ubuntu as my Home Server, with a MyPassport portable hard disk with 4 TB of storage mounted as my self-hosted storage solution. When bulk read/write was executed on the device, sometimes the setup will return `... has I/O errors`. 
+
 This article is just a record for me to resolve the same issue in the future, it might help others, but this method can only fix the NTFS file system on the software layer, not the hardware. Therefore, asking for the professionals is always the most reliable option.
 
 ## Issue Description
@@ -66,4 +67,5 @@ NTFS partition /dev/sde1 was processed successfully.
 
 ## Notices
 If the issue persists, there might have some extra issues related to the Linux device or the disk itself. To prevent this issue in the future, please stop using NTFS as the file system on Linux, due to its lack of support and poor performance of `ntfs-3g`.
+
 The most effective and simple way to prevent potential file loss in the future is to follow the [3-2-1 Backup Strategy](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/). To prevent future data lose, it’s suggested to reference the strategy, though it’s not required to follow every rule.
